@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signUp"
+    android:background="@drawable/track">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="300dp"
+        tools:ignore="MissingConstraints"
+        android:backgroundTint="#A18999B5">
+
+        <LinearLayout
+            android:id="@+id/pmain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/userName"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:drawableStart="@drawable/profile"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:text="Ela"
+                android:textStyle="bold"
+                android:textColor="#0A1139"
+                android:layout_margin="10dp"
+                android:minHeight="48dp" />
+
+            <TextView
+                android:id="@+id/kilo"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="53 Kg"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/weight1"
+                android:drawablePadding="10dp"
+                android:textColor="#0A1139"
+                android:ems="10"
+                android:minHeight="48dp" />
+
+            <TextView
+                android:id="@+id/boy"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="165 Cm"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/height"
+                android:drawablePadding="10dp"
+                android:textColor="#0A1139"
+                android:ems="10"
+                android:minHeight="48dp" />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
